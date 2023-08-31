@@ -1,0 +1,63 @@
+2023-08-12 14:20:16.291 [info] Extension host with pid 2986 started
+2023-08-12 14:20:16.292 [info] Skipping acquiring lock for /home/pyturtle_/.config/Code - OSS/User/workspaceStorage/9d78d2a048a23e8ec70a7449733e200b.
+2023-08-12 14:20:16.344 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-12 14:20:16.345 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-08-12 14:20:16.592 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-12 14:20:16.592 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2023-08-12 14:20:16.665 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-12 14:20:16.665 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-12 14:20:16.729 [info] Eager extensions activated
+2023-08-12 14:20:16.774 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-12 14:20:16.774 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-12 14:20:16.775 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-08-12 14:20:16.775 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-08-12 14:20:17.812 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+	at E.activate (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-08-12 14:20:21.431 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-08-12 14:25:59.590 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-08-12 14:26:00.840 [error] Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at Mc.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:45108)
+	at new PC (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:433687)
+	at f (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:544291)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546181
+	at t.resolveInstance (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548728
+	at Array.map (<anonymous>)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548700
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545539
+	at Array.reduce (<anonymous>)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545511
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:545838
+	at t.resolveInstance (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:546208)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549240
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:549577
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548900
+	at y (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548932)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:548794
+	at t.resolve (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:550764)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519737
+	at e._get (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519106)
+	at e._getButThrowIfAsync (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:519166)
+	at e.get (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:2:514861)
+	at Ly.get (/home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:69994)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:24:552800
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-08-12 14:50:10.520 [info] ExtensionService#_doActivateExtension qwtel.sqlite-viewer, startup: false, activationEvent: 'onCustomEditor:sqlite-viewer.view'
+2023-08-12 18:41:59.536 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2023-08-12 18:54:20.083 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

@@ -1,0 +1,9 @@
+.product:hover{
+  
+    transform: scale(2, 2);
+
+}
+
+.product{
+    transition: width 2s, height 2s, transform 2s;
+}

@@ -1,0 +1,100 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "238"
+ERROR:pygls.protocol:Failed to handle request 455 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///home/pyturtle_/Documents/ESHOPPING/ecommerce/cart/cart.py'), position=4:0, work_done_token=None)
+Traceback (most recent call last):
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 378, in hover
+    jedi_script.help(
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 5 ('\n').
+[Error - 2:55:49 PM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 5 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 337, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 261, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 378, in hover\n    jedi_script.help(\n', '  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "708"
+Exception in thread Thread-153:
+Traceback (most recent call last):
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 289, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/pyturtle_/Documents/ESHOPPING/ecommerce/cart/cart.py", line 29
+    product_ids = self.cart.keys()
+IndentationError: expected an indented block after function definition on line 28
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 61, in run
+    return func(*args, **kwargs)
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 651, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 310, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 45, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+WARNING:pygls.protocol:Cancel notification for unknown message id "768"
+WARNING:pygls.protocol:Cancel notification for unknown message id "830"
+WARNING:pygls.protocol:Cancel notification for unknown message id "902"
+WARNING:pygls.protocol:Cancel notification for unknown message id "933"
+WARNING:pygls.protocol:Cancel notification for unknown message id "946"
+WARNING:pygls.protocol:Cancel notification for unknown message id "948"
+WARNING:pygls.protocol:Cancel notification for unknown message id "963"
+WARNING:pygls.protocol:Cancel notification for unknown message id "964"
+WARNING:pygls.protocol:Cancel notification for unknown message id "974"
+WARNING:pygls.protocol:Cancel notification for unknown message id "991"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1004"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1034"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1181"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1197"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1200"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1367"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1372"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1377"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1385"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1416"
+WARNING:pygls.protocol:Cancel notification for unknown message id "1623"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2201"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2316"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2334"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2370"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2392"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2642"
+Exception in thread Thread-1456:
+Traceback (most recent call last):
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 289, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/pyturtle_/Documents/ESHOPPING/ecommerce/cart/views.py", line 15
+    def cart_detail(request):
+IndentationError: expected an indented block after 'if' statement on line 11
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 61, in run
+    return func(*args, **kwargs)
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 651, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/jedi_language_server/jedi_utils.py", line 310, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/lib/jedilsp/lsprotocol/validators.py", line 45, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+WARNING:pygls.protocol:Cancel notification for unknown message id "2718"
+WARNING:pygls.protocol:Cancel notification for unknown message id "2747"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3094"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3319"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3363"
+WARNING:pygls.protocol:Cancel notification for unknown message id "3512"

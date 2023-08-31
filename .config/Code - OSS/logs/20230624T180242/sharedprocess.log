@@ -1,0 +1,15 @@
+2023-06-24 18:02:43.565 [info] Starting worker process with pid 1650 (type: fileWatcher, window: 1).
+2023-06-24 18:03:39.584 [info] Worker process with pid 1650 terminated normally (type: fileWatcher, window: 1).
+2023-06-24 18:03:39.591 [info] Starting worker process with pid 1899 (type: fileWatcher, window: 1).
+2023-06-24 18:03:40.575 [warning] SharedProcess: createWorker found an existing worker that will be terminated (window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2023-06-24 18:03:40.579 [info] Worker process with pid 1899 terminated normally (type: fileWatcher, window: 1).
+2023-06-24 18:03:40.588 [info] Starting worker process with pid 1931 (type: fileWatcher, window: 1).
+2023-06-24 18:41:28.765 [info] Starting worker process with pid 8696 (type: fileWatcher, window: 3).
+2023-06-24 18:41:30.545 [info] Worker process with pid 8696 terminated normally (type: fileWatcher, window: 3).
+2023-06-24 20:05:53.236 [info] Getting Manifest... qwtel.sqlite-viewer
+2023-06-24 20:05:53.626 [info] Installing extension: qwtel.sqlite-viewer
+2023-06-24 20:06:03.675 [info] Extension signature verification is not done: qwtel.sqlite-viewer
+2023-06-24 20:06:03.966 [info] Extracted extension to /home/pyturtle_/.vscode-oss/extensions/.5ffaf6c3-94f6-4ef6-b2ee-26d9cfcf2add: qwtel.sqlite-viewer
+2023-06-24 20:06:03.970 [info] Renamed to /home/pyturtle_/.vscode-oss/extensions/qwtel.sqlite-viewer-0.2.5-universal
+2023-06-24 20:06:03.971 [info] Extracting extension completed. qwtel.sqlite-viewer
+2023-06-24 20:06:03.978 [info] Extension installed successfully: qwtel.sqlite-viewer

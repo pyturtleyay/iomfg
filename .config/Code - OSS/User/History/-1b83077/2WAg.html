@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+<div class="card text-center w-100 m-4" style="width: 18rem;">
+  
+    <ul class="list-group list-group-flush">
+      {% for item in cart %}
+      
+      {% with product=item.product %}
+
+
+
+
+
+      <li class="list-group-item w-100">{{product.name}}</li>
+      {% endwith %}
+      {% endfor %}
+    </ul>
+</div>
+<button class =" m-4 w-100 btn btn-submit">Check Out</button>
+
+{% endblock %}

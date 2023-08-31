@@ -1,0 +1,17 @@
+2023-07-29 18:51:59.163 [info] Starting worker process with pid 11716 (type: fileWatcher, window: 1).
+2023-07-29 18:52:06.118 [info] Getting Manifest... danielpinto8zz6.c-cpp-project-generator
+2023-07-29 18:52:06.123 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-07-29 18:52:08.087 [info] Installing extension: danielpinto8zz6.c-cpp-project-generator
+2023-07-29 18:52:08.562 [info] Installing extension: rust-lang.rust-analyzer
+2023-07-29 18:52:16.956 [info] Extension signature verification is not done: danielpinto8zz6.c-cpp-project-generator
+2023-07-29 18:52:17.134 [info] Extracted extension to /home/pyturtle_/.vscode-oss/extensions/.5355aabb-0b71-4145-b5f4-c91028dff398: danielpinto8zz6.c-cpp-project-generator
+2023-07-29 18:52:17.136 [info] Renamed to /home/pyturtle_/.vscode-oss/extensions/danielpinto8zz6.c-cpp-project-generator-1.2.13-universal
+2023-07-29 18:52:17.138 [info] Extracting extension completed. danielpinto8zz6.c-cpp-project-generator
+2023-07-29 18:52:17.144 [info] Extension installed successfully: danielpinto8zz6.c-cpp-project-generator
+2023-07-29 18:52:17.146 [info] Marked extension as uninstalled danielpinto8zz6.c-cpp-project-generator-1.2.12-universal
+2023-07-29 18:53:19.510 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2023-07-29 18:53:19.899 [info] Extracted extension to /home/pyturtle_/.vscode-oss/extensions/.877162b6-787a-4099-a147-2a41bd400200: rust-lang.rust-analyzer
+2023-07-29 18:53:19.908 [info] Renamed to /home/pyturtle_/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1566-linux-x64
+2023-07-29 18:53:19.909 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-07-29 18:53:19.917 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-07-29 18:53:19.919 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1541-linux-x64

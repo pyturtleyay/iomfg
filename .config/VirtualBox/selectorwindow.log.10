@@ -1,0 +1,21 @@
+00:00:00.091693 VirtualBox GUI VM Selector Window 7.0.6 r155176 linux.amd64 (Feb 22 2023 15:36:54) release log
+00:00:00.091694 Log opened 2023-03-23T17:10:55.019580000Z
+00:00:00.091694 Build Type: release
+00:00:00.091695 OS Product: Linux
+00:00:00.091696 OS Release: 6.2.6-arch1-1
+00:00:00.091696 OS Version: #1 SMP PREEMPT_DYNAMIC Mon, 13 Mar 2023 17:02:08 +0000
+00:00:00.091710 DMI Product Name: Vivobook_ASUSLaptop M7400QC_M7400QC
+00:00:00.091714 DMI Product Version: 1.0       
+00:00:00.091717 Firmware type: UEFI
+00:00:00.091782 Secure Boot: Disabled
+00:00:00.091800 Host RAM: 15395MB (15.0GB) total, 13333MB (13.0GB) available
+00:00:00.091802 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.091802 Process ID: 9932
+00:00:00.091802 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.091819 Qt version: 5.15.8
+00:00:00.092251 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.094504 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.094514 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.414944 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 10x40 x 1896x1146
+00:00:26.055477 GUI: UICommon: Handling aboutToQuit request..
+00:00:26.823198 GUI: UICommon: aboutToQuit request handled!

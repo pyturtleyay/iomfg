@@ -1,0 +1,5 @@
+rendezvous_server = 'rs-sg.rustdesk.com'
+nat_type = 2
+serial = 0
+
+[options]

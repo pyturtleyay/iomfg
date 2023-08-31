@@ -1,0 +1,24 @@
+2023/08/19-14:41:19.018 74a Reusing MANIFEST /home/pyturtle_/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/08/19-14:41:19.018 74a Recovering log #197
+2023/08/19-14:41:19.018 74a Reusing old log /home/pyturtle_/.config/discord/Local Storage/leveldb/000197.log 
+2023/08/19-14:42:24.513 74d Level-0 table #201: started
+2023/08/19-14:42:24.515 74d Level-0 table #201: 38745 bytes OK
+2023/08/19-14:42:24.516 74d Delete type=0 #197
+2023/08/19-14:42:24.516 74d Compacting 4@0 + 1@1 files
+2023/08/19-14:42:24.528 74d Generated table #202@0: 102 keys, 3317985 bytes
+2023/08/19-14:42:24.528 74d Compacted 4@0 + 1@1 files => 3317985 bytes
+2023/08/19-14:42:24.529 74d compacted to: files[ 0 2 0 0 0 0 0 ]
+2023/08/19-14:42:24.529 74d Delete type=2 #192
+2023/08/19-14:42:24.529 74d Delete type=2 #194
+2023/08/19-14:42:24.529 74d Delete type=2 #196
+2023/08/19-14:42:24.529 74d Delete type=2 #198
+2023/08/19-14:42:24.529 74d Delete type=2 #201
+2023/08/19-14:43:24.512 74d Level-0 table #204: started
+2023/08/19-14:43:24.518 74d Level-0 table #204: 1845743 bytes OK
+2023/08/19-14:43:24.519 74d Delete type=0 #200
+2023/08/19-19:07:38.320 1635 Level-0 table #206: started
+2023/08/19-19:07:38.322 1635 Level-0 table #206: 24399 bytes OK
+2023/08/19-19:07:38.324 1635 Delete type=0 #203
+2023/08/19-20:23:23.879 1635 Level-0 table #208: started
+2023/08/19-20:23:23.881 1635 Level-0 table #208: 21033 bytes OK
+2023/08/19-20:23:23.883 1635 Delete type=0 #205

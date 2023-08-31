@@ -1,0 +1,11 @@
+2023-06-24 18:41:29.087 [info] Extension host with pid 8699 started
+2023-06-24 18:41:29.141 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-24 18:41:29.149 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-24 18:41:29.149 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-24 18:41:29.262 [info] Eager extensions activated
+2023-06-24 18:41:29.370 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 18:41:29.371 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 18:41:29.371 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 18:41:29.371 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-06-24 18:41:30.534 [info] Extension host terminating: received terminate message from renderer
+2023-06-24 18:41:30.539 [info] Extension host with pid 8699 exiting with code 0

@@ -1,0 +1,23 @@
+2023-08-04 12:30:08.189 [info] Extension host with pid 2663 started
+2023-08-04 12:30:08.189 [info] Skipping acquiring lock for /home/pyturtle_/.config/Code - OSS/User/workspaceStorage/9d78d2a048a23e8ec70a7449733e200b.
+2023-08-04 12:30:08.353 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-04 12:30:08.353 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-08-04 12:30:08.654 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-04 12:30:08.654 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2023-08-04 12:30:08.740 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-04 12:30:08.740 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-04 12:30:08.800 [info] Eager extensions activated
+2023-08-04 12:30:08.838 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-04 12:30:08.838 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-04 12:30:08.838 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2023-08-04 12:30:08.838 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-08-04 12:30:09.875 [error] Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+	at E.activate (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)

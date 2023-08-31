@@ -1,0 +1,7 @@
+venv/*
+ecommerce/db.sqlite3
+ecommerce/ecommerce/__pycache__/settings.cpython-310.pyc
+.gitignore
+.gitignore
+ecommerce/store/__pycache__/forms.cpython-310.pyc
+ecommerce/store/__pycache__/urls.cpython-310.pyc

@@ -1,0 +1,13 @@
+.product:hover{
+  
+    transform: scale(2, 2);
+
+}
+
+.product{
+    margin-right: 0.25%;
+    margin-left: 0.25%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    transition: width 2s, height 2s, transform 2s;
+}

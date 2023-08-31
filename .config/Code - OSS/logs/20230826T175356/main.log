@@ -1,0 +1,5 @@
+2023-08-26 17:53:56.536 [info] update#ctor - updates are disabled as there is no update URL
+2023-08-26 17:53:58.772 [info] Starting extension host with pid 1576 (fork() took 33 ms).
+2023-08-28 20:39:19.435 [info] Starting extension host with pid 25186 (fork() took 7 ms).
+2023-08-28 22:06:53.499 [info] Extension host with pid 25186 exited with code: 0, signal: null.
+2023-08-29 23:39:04.898 [info] Starting extension host with pid 38196 (fork() took 12 ms).

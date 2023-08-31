@@ -1,0 +1,160 @@
+{%extends "base.html"%}
+
+{%block content %}
+<style>
+  .imge:hover {
+    transform: scale(1.05, 1.05);
+
+  }
+
+  .imge {
+    transition: 0.5s;
+  }
+
+  body {
+    color: black;
+  }
+  label{
+    font-size: 20px;
+  }
+  :checked + label {
+   font-weight: bold;
+}
+
+</style>
+<div class="row">
+  <div class="col-md-3">
+    <div class="botron ">
+<img class="img-fluid"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.e4Nv3e_s4SggDDBQp0pWTQHaHa%26pid%3DApi&f=1&ipt=8f3fc5d32eb20d86aa4340c50e97cbefcdf5a069700e4fee986c459b2c29a6c3&ipo=images" alt="">
+      
+    </div>
+  </div>
+  <div class="col-md-9"> <div class="jumbotron ">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div></div>
+</div>
+<h1 style="font-size: 50px;" class="text-center"><b>Earbuds that sound great all day.</b></h1>
+<section id="big" style="margin:5%;">
+  <div class="row">
+    <div class="col-md-3">
+      <span class="text-secondary" style="font-size: 20px;">Product type</span>
+      <div class=" flex-column d-flex ">
+        
+        <div class="custom-control custom-checkbox  align-items-center ml-4">
+          <input type="checkbox" class="custom-control-input" id="phones">
+          <label class="custom-control-label" for="phones">Phones</label>
+       
+        </div>
+        <div class="custom-control custom-checkbox ml-4">
+
+          <input type="checkbox" class="custom-control-input" id="accessories">
+          <label class="custom-control-label" for="accessories">Accessories</label>
+        </div>
+        <div class="custom-control custom-checkbox ml-4">
+
+          <input type="checkbox" class="custom-control-input" id="earbuds">
+          <label class="custom-control-label" for="earbuds">Earbuds</label>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-9">
+     
+
+      <div class="d-flex justify-content-center">
+
+        <!-- <div class="card-deck " style="width: 50rem;">
+      {% for products in Product %}
+        <div class="card  " style="border:none;">
+          <img class="card-img-top" src="{{ products.image }}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{ products.name }}</h5>
+            <p class="card-text">{{products.price}}</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+        <!-- </div>
+        </div>
+        {%endfor %}
+      </div>
+      </div> -->
+
+        <div class="card-columns">
+          <!-- <div class="card-deck justify-content-center flex-wrap" style="width: 50rem; "> -->
+
+          <div class="card   pb-4" style="border:none;">
+            <img class="card-img-top imge"
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F7%2FMobile-Phone-PNG-Photos.png&f=1&nofb=1&ipt=92d8c4e7c51f37a933f1f44d2771b7546d8e6f670e4dbaa6e4900a912374a50a&ipo=images"
+              alt="Card image cap" style="background-color: #F8F9FA;">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Pixel 3a</h5>
+              <p class="card-text text-secondary">550$</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+          <div class="card   pb-4" style="border:none;">
+            <img class="card-img-top imge"
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F7%2FMobile-Phone-PNG-Photos.png&f=1&nofb=1&ipt=92d8c4e7c51f37a933f1f44d2771b7546d8e6f670e4dbaa6e4900a912374a50a&ipo=images"
+              alt="Card image cap" style="background-color: #F8F9FA;">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Pixel 3a</h5>
+              <p class="card-text text-secondary">550$</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+          <div class="card   pb-4" style="border:none;">
+            <img class="card-img-top imge"
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F7%2FMobile-Phone-PNG-Photos.png&f=1&nofb=1&ipt=92d8c4e7c51f37a933f1f44d2771b7546d8e6f670e4dbaa6e4900a912374a50a&ipo=images"
+              alt="Card image cap" style="background-color: #F8F9FA;">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Pixel 3a</h5>
+              <p class="card-text text-secondary">550$</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+          <div class="card   pb-4" style="border:none;">
+            <img class="card-img-top imge"
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F7%2FMobile-Phone-PNG-Photos.png&f=1&nofb=1&ipt=92d8c4e7c51f37a933f1f44d2771b7546d8e6f670e4dbaa6e4900a912374a50a&ipo=images"
+              alt="Card image cap" style="background-color: #F8F9FA;">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Pixel 3a</h5>
+              <p class="card-text text-secondary">550$</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+          <div class="card   pb-4" style="border:none;">
+            <img class="card-img-top imge"
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F7%2FMobile-Phone-PNG-Photos.png&f=1&nofb=1&ipt=92d8c4e7c51f37a933f1f44d2771b7546d8e6f670e4dbaa6e4900a912374a50a&ipo=images"
+              alt="Card image cap" style="background-color: #F8F9FA;">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Pixel 3a</h5>
+              <p class="card-text text-secondary">550$</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+          <div class="card   pb-4" style="border:none;">
+            <img class="card-img-top imge"
+              src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F7%2FMobile-Phone-PNG-Photos.png&f=1&nofb=1&ipt=92d8c4e7c51f37a933f1f44d2771b7546d8e6f670e4dbaa6e4900a912374a50a&ipo=images"
+              alt="Card image cap" style="background-color: #F8F9FA;">
+            <div class="card-body">
+              <h5 class="card-title text-dark">Pixel 3a</h5>
+              <p class="card-text text-secondary">550$</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+{%endblock%}

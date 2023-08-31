@@ -1,0 +1,7 @@
+2023/08/12-18:53:42.420 60c5 Reusing MANIFEST /home/pyturtle_/.config/Code - OSS/IndexedDB/vscode-webview_0guup4c6nk8tu8frtk6nspoqjf6vrc3vrhs2e1kc9u1ncto941kd_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/12-18:53:42.420 60c5 Recovering log #3
+2023/08/12-18:53:42.420 60c5 Reusing old log /home/pyturtle_/.config/Code - OSS/IndexedDB/vscode-webview_0guup4c6nk8tu8frtk6nspoqjf6vrc3vrhs2e1kc9u1ncto941kd_0.indexeddb.leveldb/000003.log 
+2023/08/12-18:55:50.171 650c Level-0 table #5: started
+2023/08/12-18:55:50.172 650c Level-0 table #5: 930 bytes OK
+2023/08/12-18:55:50.173 650c Delete type=0 #3
+2023/08/12-18:55:50.174 650c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

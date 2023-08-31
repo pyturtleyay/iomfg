@@ -1,0 +1,7 @@
+2023-06-18 14:46:46.297 [info] Starting worker process with pid 3443 (type: fileWatcher, window: 2).
+2023-06-18 14:46:46.300 [info] Starting worker process with pid 3444 (type: fileWatcher, window: 1).
+2023-06-18 14:46:57.560 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-06-18 14:46:57.658 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-06-18 14:47:00.136 [info] Installing extension: rust-lang.rust-analyzer
+2023-06-18 14:47:00.137 [info] Extensions is already requested to install rust-lang.rust-analyzer
+2023-06-18 14:47:40.663 [info] Worker process with pid 3444 terminated normally (type: fileWatcher, window: 1).

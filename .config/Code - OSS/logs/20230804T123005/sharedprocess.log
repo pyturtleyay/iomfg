@@ -1,0 +1,3 @@
+2023-08-04 12:30:08.369 [info] Starting worker process with pid 2708 (type: fileWatcher, window: 1).
+2023-08-04 12:30:08.559 [info] Deleted from disk rust-lang.rust-analyzer /home/pyturtle_/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1541-linux-x64
+2023-08-04 12:30:08.580 [info] Deleted from disk danielpinto8zz6.c-cpp-project-generator /home/pyturtle_/.vscode-oss/extensions/danielpinto8zz6.c-cpp-project-generator-1.2.12-universal

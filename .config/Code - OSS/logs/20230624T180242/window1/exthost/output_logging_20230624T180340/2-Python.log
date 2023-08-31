@@ -1,0 +1,181 @@
+Python interpreter path: /bin/python
+[ERROR 2023-5-24 18:3:41.385]: [
+  'Failed to activate a workspace, Class name = f, completed in 24ms, has a falsy return value, Arg 1: <Uri:/home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product_list.html>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+  	at E.activate (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+  	at /home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at f.activateWorkspace (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+]
+[ERROR 2023-5-24 18:3:41.392]: Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+	at E.activate (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+[ERROR 2023-5-24 18:3:41.392]: sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+	at E.activate (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+Starting Jedi language server for ecommerce.
+> conda info --json
+> /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-5-24 18:8:41.251]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-5-24 18:8:41.263]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-5-24 18:8:41.285]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-5-24 18:8:41.304]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+Send text to terminal: /bin/python /home/pyturtle_/langtest.py
+Send text to terminal: /bin/python /home/pyturtle_/langtest.py
+Send text to terminal:   Five Server [32mrunning at:[39m
+Send text to terminal:   > Local:    [36mhttp://localhost:[1m5500[22m[39m
+Send text to terminal:   > Network:  [36mhttp://192.168.1.186:[1m5500[22m[39m
+Send text to terminal: [90m12:07:49 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m
+Send text to terminal: [90m12:08:17 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/templates/product/product.css[39m
+Send text to terminal: [90m12:10:58 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/templates/product/product.css[39m[33m (x2)[39m
+Send text to terminal: [90m12:11:27 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product/list.html does not contain required HTML tags.
+Send text to terminal: [90m12:11:46 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product/list.html does not contain required HTML tags.[33m (x2)[39m
+Send text to terminal: [90m12:14:29 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/views.py[39m
+Send text to terminal: [90m12:15:08 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/views.py[39m[33m (x2)[39m
+Send text to terminal: [90m12:15:20 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/views.py[39m[33m (x3)[39m
+Send text to terminal: [90m12:15:22 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product/list.html does not contain required HTML tags.[33m (x3)[39m
+Send text to terminal: [90m12:15:25 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product_list.html does not contain required HTML tags.
+Send text to terminal: [90m12:16:14 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product_list.html[39m
+Send text to terminal: [90m12:16:45 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/views.py[39m
+Send text to terminal: [90m12:16:58 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product_list.html does not contain required HTML tags.[33m (x2)[39m
+Send text to terminal: [90m12:17:27 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/urls.py[39m
+Send text to terminal: [90m12:17:31 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product/list.html does not contain required HTML tags.
+Send text to terminal: [90m12:17:45 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m
+Send text to terminal: [90m12:17:54 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x2)[39m
+Send text to terminal: [90m12:18:42 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x3)[39m
+Send text to terminal: [90m12:18:58 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x4)[39m
+Send text to terminal: [90m12:19:42 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x5)[39m
+Send text to terminal: [90m12:20:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x6)[39m
+Send text to terminal: [90m12:20:37 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x7)[39m
+Send text to terminal: [90m12:21:10 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/templates/product/product.css[39m[33m (x3)[39m
+Send text to terminal: [90m12:21:15 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product/list.html does not contain required HTML tags.[33m (x2)[39m
+Send text to terminal: [90m12:21:32 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x8)[39m
+Send text to terminal: [90m12:22:55 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/base.html[39m
+Send text to terminal: [90m12:23:06 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/store[39m
+Send text to terminal: [90m12:23:06 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/store/templates[39m
+Send text to terminal: [90m12:23:06 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/store/templates/product[39m
+Send text to terminal: [90m12:23:06 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/templates/store/templates/product/product.css[39m
+Send text to terminal: [90m12:23:12 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product_list.html does not contain required HTML tags.
+Send text to terminal: [90m12:23:17 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/templates/store/templates/product/product.css[39m[33m (x2)[39m
+Send text to terminal: [90m12:23:19 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product/list.html does not contain required HTML tags.
+Send text to terminal: [90m12:23:19 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m
+Send text to terminal: [90m12:23:39 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/store/templates/product[39m
+Send text to terminal: [90m12:23:39 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/store/templates[39m
+Send text to terminal: [90m12:23:39 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/store[39m
+Send text to terminal: [90m12:23:39 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/templates/store/templates/product/product.css[39m[33m (x3)[39m
+Send text to terminal: [90m12:23:44 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/base.html[39m
+Send text to terminal: [90m12:23:46 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/registration/logged_out.html does not contain required HTML tags.
+Send text to terminal: [90m12:23:48 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/product/list.html does not contain required HTML tags.
+Send text to terminal: [90m12:24:10 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m
+Send text to terminal: [90m12:24:31 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x2)[39m
+Send text to terminal: [90m12:25:07 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m
+Send text to terminal: [90m12:25:07 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/templates/product/product.css[39m
+Send text to terminal: [90m12:26:12 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/base.html[39m
+Send text to terminal: [90m12:27:41 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m
+Send text to terminal: [90m12:27:55 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m
+Send text to terminal: [90m12:27:57 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x2)[39m
+Send text to terminal: [90m12:28:31 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x3)[39m
+Send text to terminal: [90m12:28:42 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x4)[39m
+Send text to terminal: [90m12:28:59 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x5)[39m
+Send text to terminal: [90m12:29:01 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x6)[39m
+Send text to terminal: [90m12:29:22 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x2)[39m
+Send text to terminal: [90m12:29:33 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x7)[39m
+Send text to terminal: [90m12:29:46 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x8)[39m
+Send text to terminal: [90m12:29:59 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x9)[39m
+Send text to terminal: [90m12:30:17 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x10)[39m
+Send text to terminal: [90m12:30:49 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x3)[39m
+Send text to terminal: [90m12:31:23 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x11)[39m
+Send text to terminal: [90m12:31:32 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x12)[39m
+Send text to terminal: [90m12:31:39 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x13)[39m
+Send text to terminal: [90m12:35:30 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x14)[39m
+Send text to terminal: [90m12:35:44 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x15)[39m
+Send text to terminal: [90m12:36:20 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/registration/login.html does not contain required HTML tags.
+Send text to terminal: [90m12:36:24 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/registration/login.html does not contain required HTML tags.[33m (x2)[39m
+Send text to terminal: [90m12:38:23 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x16)[39m
+Send text to terminal: [90m12:38:27 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x17)[39m
+Send text to terminal: [90m12:38:27 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x18)[39m
+Send text to terminal: [90m12:38:42 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x19)[39m
+Send text to terminal: [90m12:38:50 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x20)[39m
+Send text to terminal: [90m12:38:57 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x21)[39m
+Send text to terminal: [90m12:39:05 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x22)[39m
+Send text to terminal: [90m12:39:22 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x23)[39m
+Send text to terminal: [90m12:39:37 [39m[36m[1m[Five Server][22m[39m [35mCSS change detected[39m [90mstore/static/css/product.css[39m[33m (x24)[39m
+Send text to terminal: [90m12:43:15 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x4)[39m
+Send text to terminal: [90m12:43:46 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x5)[39m
+Send text to terminal: [90m12:44:19 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x6)[39m
+Send text to terminal: [90m12:44:32 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x7)[39m
+Send text to terminal: [90m12:44:42 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x8)[39m
+Send text to terminal: [90m12:45:03 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x9)[39m
+Send text to terminal: [90m12:46:04 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x10)[39m
+Send text to terminal: [90m12:46:12 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x11)[39m
+Send text to terminal: [90m12:46:45 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x12)[39m
+Send text to terminal: [90m12:48:03 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x13)[39m
+Send text to terminal: [90m12:49:18 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x14)[39m
+Send text to terminal: [90m12:53:37 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x15)[39m
+Send text to terminal: [90m12:53:57 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x16)[39m
+Send text to terminal: [90m12:54:15 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/templates/product/list.html[39m[33m (x17)[39m
+Send text to terminal: [90m12:55:37 [39mFile: /home/pyturtle_/Documents/ESHOPPING/ecommerce/store/templates/registration/logged_out.html does not contain required HTML tags.
+Send text to terminal: [90m12:59:24 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/admin.py[39m
+Send text to terminal: [90m12:59:53 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/admin.py[39m[33m (x2)[39m
+Send text to terminal: [90m13:00:11 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/admin.py[39m[33m (x3)[39m
+Send text to terminal: [90m13:00:39 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/admin.py[39m[33m (x4)[39m
+Send text to terminal: [90m13:00:52 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m
+Send text to terminal: [90m13:00:52 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m[33m (x2)[39m
+Send text to terminal: [90m13:00:52 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3[39m
+Send text to terminal: [90m13:00:52 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m
+Send text to terminal: [90m13:05:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/admin.py[39m
+Send text to terminal: [90m13:06:35 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m
+Send text to terminal: [90m13:06:35 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m[33m (x2)[39m
+Send text to terminal: [90m13:06:35 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3[39m
+Send text to terminal: [90m13:08:33 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m
+Send text to terminal: [90m13:08:33 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3[39m
+Send text to terminal: [90m13:08:33 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m
+Send text to terminal: [90m13:08:45 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/static/image/unnamed.png[39m
+Send text to terminal: [90m13:08:45 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mstore/static/image/unnamed.png[39m[33m (x2)[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m[33m (x2)[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mmedia/products[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mmedia/products/2023[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mmedia/products/2023/06[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mmedia/products/2023/06/24[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mmedia/products/2023/06/24/unnamed.png[39m
+Send text to terminal: [90m13:09:09 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m
+Send text to terminal: [90m13:09:26 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m[33m (x2)[39m
+Send text to terminal: [90m13:09:26 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m[33m (x3)[39m
+Send text to terminal: [90m13:09:26 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3[39m
+Send text to terminal: [90m13:09:26 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m
+Send text to terminal: [90m13:10:02 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m[33m (x2)[39m
+Send text to terminal: [90m13:10:02 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m[33m (x3)[39m
+Send text to terminal: [90m13:10:02 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3[39m
+Send text to terminal: [90m13:10:02 [39m[36m[1m[Five Server][22m[39m [36mchange detected[39m [90mdb.sqlite3-journal[39m

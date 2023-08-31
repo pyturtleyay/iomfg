@@ -1,0 +1,13 @@
+2023-08-19 14:44:09.848 [info] Starting worker process with pid 3411 (type: fileWatcher, window: 1).
+2023-08-19 14:44:10.064 [info] Deleted from disk rust-lang.rust-analyzer /home/pyturtle_/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1566-linux-x64
+2023-08-19 14:44:10.075 [info] Deleted from disk qwtel.sqlite-viewer /home/pyturtle_/.vscode-oss/extensions/qwtel.sqlite-viewer-0.2.5-universal
+2023-08-19 14:44:16.280 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-08-19 14:44:18.702 [info] Installing extension: rust-lang.rust-analyzer
+2023-08-19 14:44:26.455 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2023-08-19 14:44:26.745 [info] Extracted extension to /home/pyturtle_/.vscode-oss/extensions/.1662ce9d-9467-4ef8-9b66-e6c5428c61ed: rust-lang.rust-analyzer
+2023-08-19 14:44:26.748 [info] Renamed to /home/pyturtle_/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1623-linux-x64
+2023-08-19 14:44:26.749 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-08-19 14:44:26.756 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-08-19 14:44:26.758 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1615-linux-x64
+2023-08-19 19:38:25.898 [info] Starting worker process with pid 9553 (type: fileWatcher, window: 3).
+2023-08-19 19:38:26.812 [info] Worker process with pid 9553 terminated normally (type: fileWatcher, window: 3).

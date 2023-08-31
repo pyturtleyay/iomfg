@@ -1,0 +1,22 @@
+2023-08-26 17:53:59.265 [info] Starting worker process with pid 1615 (type: fileWatcher, window: 1).
+2023-08-26 17:53:59.592 [info] Deleted from disk rust-lang.rust-analyzer /home/pyturtle_/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1615-linux-x64
+2023-08-26 17:54:11.502 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-08-26 17:54:14.567 [info] Installing extension: rust-lang.rust-analyzer
+2023-08-26 17:55:03.148 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2023-08-26 17:55:03.556 [info] Extracted extension to /home/pyturtle_/.vscode-oss/extensions/.eda8b588-b76c-429b-abe1-ac08bbf15cb8: rust-lang.rust-analyzer
+2023-08-26 17:55:03.560 [info] Renamed to /home/pyturtle_/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1631-linux-x64
+2023-08-26 17:55:03.563 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-08-26 17:55:03.571 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-08-26 17:55:03.574 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1623-linux-x64
+2023-08-28 20:13:35.576 [warning] No ptyHost heartbeat after 6 seconds
+2023-08-28 20:39:19.421 [info] Starting worker process with pid 25184 (type: fileWatcher, window: 3).
+2023-08-28 20:39:25.866 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-08-28 20:39:28.161 [info] Installing extension: rust-lang.rust-analyzer
+2023-08-28 20:39:59.734 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2023-08-28 20:40:00.032 [info] Extracted extension to /home/pyturtle_/.vscode-oss/extensions/.90a227d5-4926-4514-8154-4e88aa983068: rust-lang.rust-analyzer
+2023-08-28 20:40:00.036 [info] Renamed to /home/pyturtle_/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1641-linux-x64
+2023-08-28 20:40:00.038 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-08-28 20:40:00.045 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-08-28 20:40:00.047 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1631-linux-x64
+2023-08-28 22:06:53.500 [info] Worker process with pid 25184 terminated normally (type: fileWatcher, window: 3).
+2023-08-29 23:39:04.872 [info] Starting worker process with pid 38195 (type: fileWatcher, window: 4).

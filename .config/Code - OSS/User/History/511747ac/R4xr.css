@@ -1,0 +1,58 @@
+body {
+ 
+
+    background-repeat: repeat;
+
+    background-attachment: fixed;
+  }
+.parent{
+    background-color: #343a40;
+    border-radius: 25px;
+}
+hr.new4 {
+    border: 1px solid white;
+  }
+
+#footer{
+  margin-top:-100px;
+  height:100px;
+  color:#fff;
+  position:relative;
+  line-height:180%;
+  padding:0 10px;
+  background-color: black;
+  text-align: center;
+} 
+
+body{
+  /* Created with https://www.css-gradient.com */
+  background: #23EC55;
+  background: -webkit-radial-gradient(top right, #23EC55, #2D51C1);
+  background: -moz-radial-gradient(top right, #23EC55, #2D51C1);
+  background: radial-gradient(to bottom left, #23EC55, #2D51C1);
+  }
+
+
+.card:hover{
+  
+    transform: scale(1.05, 1.05);
+    border: solid #2D51C1 5px;
+  
+}
+.card{
+  transition: ease 0.35s;
+  border-radius: 25px;
+  
+}
+
+.upcoming{
+  
+  padding-bottom: 200px;
+}
+
+.card-deck{
+  padding-bottom: 150px;
+}
+.container{
+  margin-right: 0px;
+}

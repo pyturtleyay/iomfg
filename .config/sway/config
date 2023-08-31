@@ -1,0 +1,39 @@
+# Set the terminal emulator to be used
+# Change this to your preferred terminal emulator
+set $term alacritty
+
+# Set the default workspace names
+set $ws1 1:Web
+set $ws2 2:Terminal
+set $ws3 3:Code
+set $ws4 4:Files
+
+# Switch to workspace when launched
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+
+# Launch applications on startup
+exec $term
+exec firefox
+exec code
+exec nautilus
+
+# Set the default window position and size
+default_orientation normal
+smart_gaps on
+default_border pixel 2
+default_floating_sink center
+focus_follows_mouse no
+mouse_warping none
+
+# Set default font and colors
+font pango:DejaVu Sans Mono 10
+client.background #282828
+client.focused_inactive #504945
+client.focused #b8bb26
+client.unfocused #928374
+client.urgent #fb4934
+bar.background #282828
+bar.statusline #ebdbb2

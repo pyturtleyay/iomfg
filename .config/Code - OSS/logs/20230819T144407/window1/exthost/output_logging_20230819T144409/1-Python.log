@@ -1,0 +1,67 @@
+> conda info --json
+Python interpreter path: /bin/python
+> /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-7-19 14:44:10.442]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-7-19 14:44:10.459]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-7-19 14:44:10.481]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/bin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python2 -I ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-7-19 14:44:10.499]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/sbin/python2 ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-7-19 14:44:10.524]: [
+  'Failed to activate a workspace, Class name = f, completed in 338ms, has a falsy return value, Arg 1: <Uri:/home/pyturtle_/Documents/ESHOPPING/ecommerce/store/apps.py>, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+  	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+  	at E.activate (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+  	at /home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+  	at Array.map (<anonymous>)
+  	at f.activateWorkspace (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+  	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+]
+[ERROR 2023-7-19 14:44:10.525]: Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+	at E.activate (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+[ERROR 2023-7-19 14:44:10.525]: sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at C (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:44957)
+	at get testResults [as testResults] (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:26184)
+	at E.activate (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:792277)
+	at /home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2386
+	at Array.map (<anonymous>)
+	at f.activateWorkspace (/home/pyturtle_/.vscode-oss/extensions/ms-python.python-2023.6.1-universal/out/client/extension.js:2:2376)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)]
+Starting Jedi language server for ecommerce.
+> /bin/python -m autopep8 --diff ./cart/cart.py.7034f0d9ed0d3a0eb5d1160ce24c1e30.tmp
+cwd: .
+> /bin/python -c "import autopep8"
+> /bin/python -c "import autopep8"
+
+Formatting with autopep8 failed.
+You could either install the 'autopep8' formatter, turn it off or use another formatter.
+Error: Module 'autopep8' not installed.
+> /bin/python -c "import pip"
+> /bin/python -c "import autopep8"
+Send text to terminal: /bin/python -m pip install -U autopep8
+> /bin/python -m autopep8 --diff ./cart/cart.py.7034f0d9ed0d3a0eb5d1160ce24c1e30.tmp
+cwd: .
+> /bin/python -m autopep8 --diff ./cart/cart.py.7034f0d9ed0d3a0eb5d1160ce24c1e30.tmp
+cwd: .

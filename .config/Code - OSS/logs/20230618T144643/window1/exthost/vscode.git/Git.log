@@ -1,0 +1,28 @@
+2023-06-18 14:46:46.482 [info] Log level: Info
+2023-06-18 14:46:46.482 [info] Validating found git in: "git"
+2023-06-18 14:46:46.482 [info] Using git "2.40.0" from "git"
+2023-06-18 14:46:46.482 [info] > git rev-parse --show-toplevel [3ms]
+2023-06-18 14:46:46.483 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-06-18 14:46:46.491 [info] Open repository: /home/pyturtle_/LesSystem-de-Lindenmayer-dur-Bevy
+2023-06-18 14:46:46.561 [info] > git rev-parse --show-toplevel [65ms]
+2023-06-18 14:46:46.574 [info] > git rev-parse --show-toplevel [7ms]
+2023-06-18 14:46:46.582 [info] > git config --get commit.template [23ms]
+2023-06-18 14:46:46.589 [info] > git rev-parse --show-toplevel [8ms]
+2023-06-18 14:46:46.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-06-18 14:46:46.603 [info] > git status -z -uall [5ms]
+2023-06-18 14:46:46.617 [info] > git config --get commit.template [1ms]
+2023-06-18 14:46:46.625 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-06-18 14:46:46.633 [info] > git status -z -uall [3ms]
+2023-06-18 14:46:46.989 [info] > git show --textconv :Cargo.toml [7ms]
+2023-06-18 14:46:46.989 [info] > git ls-files --stage -- /home/pyturtle_/LesSystem-de-Lindenmayer-dur-Bevy/Cargo.toml [2ms]
+2023-06-18 14:46:46.996 [info] > git cat-file -s d58e32ee819806a0fdd23dac4089f4ac2da19299 [2ms]
+2023-06-18 14:46:47.010 [info] > git check-ignore -v -z --stdin [3ms]
+2023-06-18 14:46:49.779 [info] > git config --get commit.template [4ms]
+2023-06-18 14:46:49.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-18 14:46:49.784 [info] > git status -z -uall [1ms]
+2023-06-18 14:46:54.794 [info] > git config --get commit.template [3ms]
+2023-06-18 14:46:54.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-18 14:46:54.803 [info] > git status -z -uall [5ms]
+2023-06-18 14:47:38.091 [info] > git config --get commit.template [3ms]
+2023-06-18 14:47:38.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-06-18 14:47:38.095 [info] > git status -z -uall [1ms]
