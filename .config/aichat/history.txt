@@ -1,9 +1,0 @@
-hello
-.exit
-hi
-reverse a list in rust
-.info
-.exit
-hello
-nvim .zhs
-spicetify

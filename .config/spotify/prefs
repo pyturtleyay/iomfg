@@ -1,6 +1,6 @@
 autologin.blob="Jkv0XqoXilMC/ByrFVpioSn2tFphfh3UZQvegXaf9xLVvf6qNdirON4/qxNrJ7yh7Chzc9X+0V0bsqT3KJCpTGUdvi+z4aW5j+yZ8eys3QjlGQZN8MxZUYTFKHASOGnCqYzTsl5/ZyVqk0+2ysx0TY8z6+1e1Ok9bUNklP1pYxF9XCOYcIUMieo1MfREKt/F0bzJmhg0H+rpLWJU9d+SnAD2MgYQ87U/gPV1RVQXyxcBpgK1rtwbbr3SvRmw+7hh"
 autologin.saved_credentials="{\"iwruknkpoe9ejoar58u7xbzl0\":[\"iwruknkpoe9ejoar58u7xbzl0\",\"Jkv0XqoXilMC/ByrFVpioSn2tFphfh3UZQvegXaf9xLVvf6qNdirON4/qxNrJ7yh7Chzc9X+0V0bsqT3KJCpTGUdvi+z4aW5j+yZ8eys3QjlGQZN8MxZUYTFKHASOGnCqYzTsl5/ZyVqk0+2ysx0TY8z6+1e1Ok9bUNklP1pYxF9XCOYcIUMieo1MfREKt/F0bzJmhg0H+rpLWJU9d+SnAD2MgYQ87U/gPV1RVQXyxcBpgK1rtwbbr3SvRmw+7hh\"]}"
-core.clock_delta=2
+core.clock_delta=0
 autologin.username="iwruknkpoe9ejoar58u7xbzl0"
 app.window.position.saved=true
 app.window.position.height=1143
